@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/8p6tjyrr9akm4v4w?svg=true)](https://ci.appveyor.com/project/zontchan/retro-game)
 # Дипломное задание к курсу «Продвинутый JavaScript». Retro Game
 
 ###### tags: `netology` `advanced js`
@@ -213,11 +214,13 @@ P.S. конечно, в реальной жизни проще договори�
 Как это должно выглядеть:
 ```javascript
 // GameController:
-someMethodName() { // <- что это за метод и где это нужно сделать решите сами
+someMethodName()
+{ // <- что это за метод и где это нужно сделать решите сами
    this.gameplay.addCellEnterListener(this.onCellEnter);
 }
 
-onCellEnter(cellIndex) {
+onCellEnter(cellIndex)
+{
     // some logic here
 }
 ```
@@ -255,11 +258,13 @@ onCellEnter(cellIndex) {
 
 ```javascript
 // GameController:
-someMethodName() { // <- что это за метод и где это нужно сделать решите сами
+someMethodName()
+{ // <- что это за метод и где это нужно сделать решите сами
    this.gameplay.addCellClickListener(this.onCellClick);
 }
 
-onCellClick(cellIndex) {
+onCellClick(cellIndex)
+{
     // some logic here
 }
 ```
